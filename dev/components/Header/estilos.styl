@@ -11,6 +11,10 @@
 	
 	&.sticky
 		height 60px
+		
+		& .Header-logoLink
+			width 105px
+			height 60px
 	
 	&-logoLink
 		display inline-block
@@ -21,6 +25,7 @@
 		background-size 100% auto
 		vertical-align middle
 		float left
+		transition all .4s ease
 	
 	&-logo
 		text-indent -9999px
@@ -45,6 +50,7 @@
 		width 200px
 		border-bottom 3px solid $light_gray
 		float left
+		transition all .4s ease
 		
 		&:hover
 			border-bottom 3px solid $gray
