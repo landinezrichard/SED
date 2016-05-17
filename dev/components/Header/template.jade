@@ -17,26 +17,26 @@ header.Header
 							|	CONTÁCTENOS
 			div.Header-redes
 				a.Header-red(href="#")
-					|	Fb
+					img(src='../images/01-home/fb.png')
 				a.Header-red(href="#")
-					|	Tw
+					img(src='../images/01-home/tw.png')
 				a.Header-red(href="#")
-					|	in
+					img(src='../images/01-home/in.png')
 				a.Header-red(href="#")
-					|	yt
+					img(src='../images/01-home/yt.png')
 			div.Header-ingreso
 				a.Header-log
 					|	LOGOUT
-				div
-					span
+				div.Header-login
+					span.Header-logTitle
 						|	INGRESO A CLIENTES
-					form
-						input(type="text", placeholder="Usuario")
-						input(type="password", placeholder="Contraseña")
-						a
-							|	Enviar
-						a
+					form.Header-logForm
+						input.Header-input(type="text", placeholder="Usuario")
+						input.Header-input(type="password", placeholder="Contraseña")
+						a.Header-logBtn
+							|	ENVIAR
+						a.Header-logLightBtn
 							|	¿Olvidaste tu contraseña?
-						a
+						a.Header-logLightBtn
 							|	Solicita tu registro aquí
 			//- hacer el cuadro de usuario

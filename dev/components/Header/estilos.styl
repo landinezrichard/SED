@@ -20,6 +20,7 @@
 		background-repeat no-repeat
 		background-size 100% auto
 		vertical-align middle
+		float left
 	
 	&-logo
 		text-indent -9999px
@@ -28,6 +29,8 @@
 	&-right
 		display inline-block
 		vertical-align top
+		margin-left 75px
+		float right
 		
 	&-menu
 		display inline-block
@@ -58,3 +61,108 @@
 		font-weight 300
 		font-size 1.37em
 		padding-top 15px
+		
+	&-redes
+		display inline-block
+		margin 20px 66px 0
+		
+	&-red
+		display inline-block
+		width 32px
+		height 32px
+		cursor pointer
+		background $light_gray2
+		transition all .4s ease
+		margin 7px 3px
+		
+		&:hover
+			background $red
+			
+	&-ingreso
+		display inline-block		
+		vertical-align top
+		width 185px
+		
+	&-log
+		display inline-block
+		color $white
+		background $red
+		box-sizing border-box
+		border-bottom 3px solid $dark_red
+		font-weight 300
+		font-size 1.37em
+		width 185px
+		height 61px
+		cursor pointer
+		padding-top 21px
+		
+	&-login
+		display none
+		// display inline-block
+		background $white
+		width 185px
+		
+	&-logTitle
+		display inline-block
+		width 100%
+		color $black2
+		font-weight 300
+		font-size 1em
+		border-bottom 2px solid $light_gray3
+		padding .5em 0
+		
+	&-logForm
+		display inline-block
+		background $light_gray4
+		padding-top 3px
+		
+	&-input
+		display inline-block
+		width 156px
+		height 28px
+		padding 0.2em
+		box-sizing border-box
+		border none
+		border 1px solid $white
+		background $light_gray4
+		margin 3px
+		text-align center
+		color $black3
+		font-weight 300
+		font-size 0.94em
+		
+	&-input::-webkit-input-placeholder
+		color $black3
+		
+	&-input:-moz-placeholder
+		color $black3
+		
+	&-input::-moz-placeholder
+		color $black3
+		
+	&-input:-ms-input-placeholder
+		color $black3
+		
+	&-logBtn
+		display inline-block
+		width 156px
+		height 28px
+		line-height 28px
+		background $red
+		color $white
+		cursor pointer
+		margin 3px
+		font-weight 400
+		font-size 0.93em
+		
+		&:after
+			content ""
+	&-logLightBtn
+		display inline-block
+		width 100%
+		border-top 1px solid $white
+		font-weight 300
+		font-size 0.81em
+		color $black2
+		cursor pointer
+		padding .5em 0
