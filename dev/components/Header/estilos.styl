@@ -1,0 +1,60 @@
+/*HEADER*/
+
+.Header
+	display inline-block
+	width 100%
+	background $white
+	position fixed
+	text-align center
+	transition all .4s ease
+	height 111px
+	
+	&.sticky
+		height 60px
+	
+	&-logoLink
+		display inline-block
+		width 200px
+		height 111px
+		background-image url('../images/01-home/logo-sed.png')
+		background-repeat no-repeat
+		background-size 100% auto
+		vertical-align middle
+	
+	&-logo
+		text-indent -9999px
+		margin 0
+		
+	&-right
+		display inline-block
+		vertical-align top
+		
+	&-menu
+		display inline-block
+	&-list
+		display inline-block
+		list-style none
+		padding 0
+		margin 0
+		
+	&-item
+		display inline-block
+		width 200px
+		border-bottom 3px solid $light_gray
+		float left
+		
+		&:hover
+			border-bottom 3px solid $gray
+		
+	&-link
+		display inline-block
+		height 40px
+		width 100%
+		box-sizing border-box
+		margin 9px 0
+		cursor pointer
+		border-right 1px solid $light_gray
+		color $black2
+		font-weight 300
+		font-size 1.37em
+		padding-top 15px

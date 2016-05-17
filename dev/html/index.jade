@@ -1,0 +1,18 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+		title
+			|	SED
+		link(rel="stylesheet", type="text/css", href="../css/estilos.css")
+		link(href='https://fonts.googleapis.com/css?family=Yantramanav:400,700,500,300,100,900', rel='stylesheet', type='text/css')
+	body
+		include ../components/Header/template.jade
+		//- include ../components/Footer/template.jade
+		// build:js ../js/combined.js
+		script("text/javascript", src="../js/jquery-2.2.1.min.js")
+		//- script("text/javascript", src="../js/owl.carousel.min.js")
+		//- script("text/javascript", src="../js/paginator.jquery.js")
+		script("text/javascript", src="../js/functions.js")
+		// endbuild
