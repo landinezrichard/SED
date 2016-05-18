@@ -9,9 +9,13 @@ html(lang="es")
 		link(href='https://fonts.googleapis.com/css?family=Yantramanav:400,700,500,300,100,900', rel='stylesheet', type='text/css')
 	body
 		include ../components/Header/template.jade
-		include ../components/Banner/template.jade
-		div(style="width:1400px;height:1000px;")
-		include ../components/Footer/template.jade
+		div.u-content
+			include ../components/Banner/template.jade
+			div(style="width:1400px;height:1000px; background:blue;")
+			include ../components/Contacto/home.jade
+			div.u-centrar
+				include ../components/Marcas/template.jade
+			include ../components/Footer/template.jade
 		// build:js ../js/combined.js
 		script("text/javascript", src="../js/jquery-2.2.1.min.js")
 		script("text/javascript", src="../js/owl.carousel.min.js")
