@@ -10,6 +10,15 @@ $(document).ready(function() {
 		}
 	});
 
+	/*Banner Home*/
+	$('.Banner').owlCarousel({
+		items : 1,
+		singleItem : true,
+		slideSpeed : 1000,
+		navigation: true,
+		pagination:true
+	});
+
 	/*Funcionalidades Menu*/
 
 	// var menus = ['.Menu','.Header-contactoMovil'];
@@ -140,16 +149,16 @@ $(document).ready(function() {
 	// 	responsiveRefreshRate : 100
 	// });
 
- //    Cambiar controles owl
- //    var arrow_izq ='<span class="flecha-left"></span>';
-	// var arrow_der ='<span class="flecha-right"></span>';
-	// $.each($('.owl-prev'),function(elemento){
-	// 	$(this).html(arrow_izq);
-	// });
+    /*Cambiar controles owl*/
+	var arrow_izq ='<span class="flecha-left"></span>';
+	var arrow_der ='<span class="flecha-right"></span>';
+	$.each($('.owl-prev'),function(elemento){
+		$(this).html(arrow_izq);
+	});
 
-	// $.each($('.owl-next'),function(elemento){
-	// 	$(this).html(arrow_der);
-	// });
+	$.each($('.owl-next'),function(elemento){
+		$(this).html(arrow_der);
+	});
 
 	/*Acordeon Filtro*/
 

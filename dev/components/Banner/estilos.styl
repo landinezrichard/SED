@@ -4,3 +4,131 @@
 	display inline-block
 	width 100%
 	text-align center
+	margin-top 111px
+	position relative
+	
+	&-item
+		position relative
+		width 100%
+		display inline-block
+		max-height 483px
+		
+	&-img
+		margin-bottom -6px
+		max-height 483px
+		width 100%
+	
+	& .u-centrar
+		position absolute		
+		top 0
+		left 0
+		right 0
+		// width 100%
+		// top 50%
+		// transform translateY(-50%)
+		
+	&-info
+		display inline-block
+		float right
+		width 50%
+		margin-right 25px
+		
+	&-infoUno
+	&-infoDos
+		display inline-block
+		width 100%
+		text-align right
+		
+	&-title
+		font-weight 900
+		font-size 3.31em
+		color $white
+		margin 0
+		
+	&-infoimg
+		vertical-align middle
+		max-width 136px
+		
+	&-infoUno
+		margin 30px 0
+		padding-bottom 15px
+		border-bottom 3px solid $white
+		& .Banner-title
+			max-width 490px
+			display inline-block
+			margin-right 30px
+			vertical-align middle
+
+	&-infoDos
+		// margin-top 35px
+		& .Banner-title
+			max-width 543px
+			display inline-block
+			font-size 2.93em
+			
+	&-txt
+		margin 0
+		color $white
+		font-weight 400
+		font-size 1.87em
+		max-width 570px
+		display inline-block
+		
+/*Controles Owl Galeria*/
+
+.Banner.owl-carousel .owl-controls
+	width 1400px
+	margin 0 auto
+	position relative
+	margin-top -58px
+	z-index 2
+
+/*dots*/
+.Banner.owl-carousel .owl-controls .owl-pagination
+	text-align center
+	display inline-block	
+	width auto
+	// margin-top -55px
+
+.Banner.owl-carousel .owl-controls.clickable .owl-pagination .owl-page
+	display inline-block
+	
+.Banner.owl-carousel .owl-controls.clickable .owl-pagination .owl-page span
+	display inline-block
+	width 20px
+	height 20px
+	margin 10px
+	border 1px solid $white
+	background transparent
+	vertical-align middle
+	
+.Banner.owl-carousel .owl-controls.clickable .owl-pagination .owl-page.active span	
+	background $red
+	border none
+
+/*prev-next buttons*/
+.Banner.owl-carousel .owl-controls .owl-buttons
+	display inline-block
+	width 100%
+	margin-top -20px
+
+.Banner.owl-carousel .owl-controls .owl-buttons .owl-prev
+.Banner.owl-carousel .owl-controls .owl-buttons .owl-next	
+	display inline-block
+	width 52px
+	height 52px
+	cursor pointer
+	margin 5px	
+	margin-top -70px
+	position relative
+	z-index 2
+
+.Banner.owl-carousel .owl-controls .owl-buttons .owl-prev	
+	background url('../images/01-home/banner-left.png') no-repeat center
+	background-size cover
+	float left
+
+.Banner.owl-carousel .owl-controls .owl-buttons .owl-next	
+	background url('../images/01-home/banner-right.png') no-repeat center
+	background-size cover
+	float right
