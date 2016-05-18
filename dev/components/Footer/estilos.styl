@@ -4,12 +4,14 @@
 	display inline-block
 	width 100%
 	color $white
+	float left
 	
 	&-izq
 	&-der
 		display inline-block
 		width 50%
 		float left
+		height 451px
 		
 	&-izq
 		background $black2
@@ -18,16 +20,114 @@
 		background $black4
 		
 	&-menu1
+	&-menu2
 		display inline-block
 		text-align left
+		width 265px
+		vertical-align top
+		margin 45px 0
+		
+	&-menu1
+		margin-right 45px
+		
+	&-menu2
+		margin-left 45px
+		margin-right 75px
 		
 	&-title
 		display inline-block
 		color $white
 		font-weight 900
 		font-size 1.5em
-		width 260px
+		// width 260px
+		width 100%
 		padding 10px 8px
 		border-bottom 5px solid $dark_gray
 		margin 0 0 22px
 		text-align left
+		
+	&-menu
+		list-style none
+		margin 0
+		padding 0
+		
+	&-item
+		margin 7px 8px
+	&-link
+		cursor pointer
+		font-weight 300
+		font-size 1.18em
+		color $white		
+		width 100%
+	&-copy
+		display inline-block
+		width 100%
+		margin-bottom 30px
+		
+	&-copyText
+		font-weight 300
+		font-size 1.12em
+		color $white
+		margin 0
+		display inline-block
+		width 100%
+	&-copyLink
+		color $white
+		cursor pointer
+		
+	&-contacto
+		display inline-block
+		width 100%
+		
+	&-btnContainer
+		display inline-block
+		width 100%
+		margin 50px 0
+		
+	&-contactBtn
+		cursor pointer
+		color $white
+		display inline-block
+		width 485px
+		height 70px
+		line-height 70px
+		border 1px solid $white
+		font-weight 300
+		font-size 2.06em
+		
+		&:after
+			content ""
+			display inline-block
+			width 45px
+			height 70px
+			background url('../images/01-home/flecha-contacto.png') 50% no-repeat
+			vertical-align middle
+			margin-left 34px
+		
+	&-garantia
+		display inline-block
+		width 100%
+		max-width 320px
+		
+		& .Footer-title
+			text-align center
+		
+	&-datos
+		width 100%
+		display inline-block
+		font-weight 300
+		font-size 1.25em
+		color $white
+		
+	&-datBold
+		font-weight 700
+		font-size 1.5rem
+		color $white
+		
+	&-redes
+		display inline-block
+		width 100%
+		margin 22px 0
+		
+	// &-red
+		
